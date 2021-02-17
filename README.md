@@ -2,11 +2,12 @@
 
 * developed in a way that if you set multithreading to True in config , will be faster but also effects other programs in local.
 
-1. > python3 -m venv .venv
-2. > source ./.venv/bin/activate
-3. > pip install -r requirements.txt
-4. > input in config_input.py file inputs required
-5. > cd ./GetXML_S3Connect
+1. > cd ./s3_connect_search_get_events
+
+2. > python3 -m venv .venv 
+3. > source ./.venv/bin/activate 
+4. > pip install -r requirements.txt 
+5. > input in config_input.py file inputs required
 6. > pytest ./                
     * Tests still in progress 
 7. > python3 ./ConnectGetFilterXML_S3.py
